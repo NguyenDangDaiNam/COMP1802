@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài tập Form</title>
+    <link rel="stylesheet" href="2.5.1.css">
+    <style>
+        table{
+            width: 500px;
+        }
+        td{
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <caption>
+            <b>ĐĂNG KÝ THÀNH VIÊN CLB YÊU NHẠC</b>
+        </caption>
+        <tbody>
+            <tr>
+            <th>Họ tên</th>
+            <th><input type="text"    id="txthoten"></th>
+        </tr>
+        <tr>
+            <th>Tên đăng nhập</th>
+            <th><input type="text" id="txtusername"></th>
+        </tr>
+        <tr>
+            <th>Mật khẩu</th>
+            <th><input type="password"   id="txtpass"></th>
+        </tr>
+        <tr>
+            <th>Gõ lại mật khẩu</th>
+            <th><input type="password" id="txtrepass"></th>
+        </tr>
+        <tr>
+            <th>Giới tính</th>
+            <th>
+                <div>
+                    <input type="radio"  name="rdgioitinh"> Nam
+                    <input type="radio"  name="rdgioitinh"> Nữ
+
+                  </div>
+            </th>
+        </tr>
+        <tr>
+            <th>Ngoại ngữ</th>
+            <th>
+                <div>
+                    <input type="checkbox" id="chkanh">Anh văn<input type="checkbox" id="chkphap">Pháp văn<input type="checkbox" id="chkhoa" >Hoa văn
+                </div>
+            </th>
+        </tr>
+        <tr>
+            <th>Nghề nghiệp</th>
+            <th>
+                <input type="text"    id="nghenghiep">
+
+                
+                <!-- <select name="" id="cbonghenghiep">
+                    <label for="0">Bạn làm nghề gì</label>
+                    <label for="1">Học sinh - Sinh viên</label>
+                    <label for="2">Giáo viên</label>
+                    <label for="3">Nhân viên</label>
+                </select> -->
+            
+            
+            </th>
+        </tr>
+        <tr>
+            <th>Hình</th>
+            <th>
+                <input type="file" name="" id="fhinh">
+            </th>
+        </tr>
+        <tr>
+            <th>Sở thích</th>
+            <th>
+                <textarea name="" id="txtsothich" cols="25" rows="5"></textarea>
+            </th>
+        </tr>
+        <tr>
+            <!-- <td style="text-align: center;">
+                <input type="submit" name="Đăng ký" id="btndangky" value="Đăng ký">
+                <input type="reset" name="" id="btndangky" value="Làm lại"> -->
+            </td>
+            <td colspan="2" style="text-align: center;">
+                <input type="submit" name="Đăng ký" id="btndangky" value="Đăng ký">
+                <input type="reset" name="" id="btndangky" value="Làm lại">
+            </td>
+        </tr>
+        </tbody>
+        
+    </table>
+</body>
+</html>
